@@ -5,8 +5,8 @@ html body {
 
 .words-remaining {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 0px;
+  right: 10px;
   font-size: 20px;
 }
 
@@ -74,8 +74,8 @@ html body {
   text-align: center;
 }
 
-.container .btn {
-  margin: 10px;
+.btn-success, .btn-danger {
+  height: 150px;
 }
 
 /*Pantalla final puntuación*/

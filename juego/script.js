@@ -209,33 +209,38 @@ const nextWord = () => {
   container.classList.add("container");
   document.body.appendChild(container);
 
-  wordElement = document.createElement("h2");
+  wordElement = document.createElement("h1");
   const randomWord = getRandomWord();
   wordElement.textContent = randomWord;
   wordElement.classList.add("word");
   container.appendChild(wordElement);
 
-  const correctButton = document.createElement("button");
-  correctButton.textContent = "Correcto";
-  correctButton.classList.add("btn", "btn-success");
-  correctButton.addEventListener("click", () => {
-    handleAnswer(true);
-  });
-  container.appendChild(correctButton);
+  const buttonContainer = document.createElement("div");
+  buttonContainer.classList.add("row", "justify-content-center", "mt-4");
+  container.appendChild(buttonContainer);
 
   const incorrectButton = document.createElement("button");
   incorrectButton.textContent = "Incorrecto";
-  incorrectButton.classList.add("btn", "btn-danger");
+  incorrectButton.classList.add("btn", "btn-danger", "col-4", "me-2");
   incorrectButton.addEventListener("click", () => {
     handleAnswer(false);
   });
-  container.appendChild(incorrectButton);
+  buttonContainer.appendChild(incorrectButton);
+
+  const correctButton = document.createElement("button");
+  correctButton.textContent = "Correcto";
+  correctButton.classList.add("btn", "btn-success", "col-4", "ms-2");
+  correctButton.addEventListener("click", () => {
+    handleAnswer(true);
+  });
+  buttonContainer.appendChild(correctButton);
 
   const wordsRemainingElement = document.createElement("div");
   wordsRemainingElement.textContent = `Palabras restantes: ${words.length}`;
-  wordsRemainingElement.classList.add("words-remaining");
+  wordsRemainingElement.classList.add("words-remaining", "text-center", "mt-4");
   container.appendChild(wordsRemainingElement);
 };
+
 
 const getRandomWord = () => {
   const randomIndex = Math.floor(Math.random() * words.length);
