@@ -1,0 +1,16 @@
+{
+  "name": "PacoFun",
+  "short_name": "PacoFun",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#272727",
+  "theme_color": "#272727",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./img/pacofun.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
