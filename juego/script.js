@@ -137,7 +137,8 @@ const startNewCountdown = () => {
   const countdownInterval = setInterval(() => {
     if (words.length <= 0) {
       showResults();
-      document.body.removeChild(countdownElement); 
+      document.body.removeChild(countdownElement);
+      clearInterval(countdownInterval);
       return;
     }
 
