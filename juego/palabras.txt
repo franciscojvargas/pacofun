@@ -187,3 +187,63 @@ Beber una fanta de naranja
 Decir un discurso motivacional
 Escuchar el sonido del mar
 Ir a un buffet de cerveza
+Perro
+Gato
+Elefante
+León
+Tigre
+Oso
+Jirafa
+Mono
+Cebra
+Serpiente
+Cocodrilo
+Rinoceronte
+Hipopótamo
+Gorila
+Caballo
+Vaca
+Cerdo
+Oveja
+Cabra
+Conejo
+Rata
+Murciélago
+Ballena
+Delfín
+Tortuga
+Pájaro
+Águila
+Pato
+Pez
+Mariposa
+Teléfono móvil
+Ordenador portátil
+Libro
+Bolígrafo
+Silla
+Mesa
+Cama
+Lámpara
+Televisión
+Coche
+Bicicleta
+Reloj
+Gafas
+Cuchara
+Taza
+Platos
+Cámara
+Auriculares
+Martillo
+Destornillador
+Cepillo de dientes
+Cepillo para el cabello
+Maleta
+Botella de agua
+Paraguas
+Ventilador
+Guitarra
+Pelota
+Globo
+Llavero

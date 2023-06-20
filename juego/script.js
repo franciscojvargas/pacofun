@@ -292,20 +292,18 @@ const nextPlayerTurn = () => {
   currentPlayerIndex++;
 
   if (currentPlayerIndex >= totalPlayers) {
-    clearScreen();
-    console.log("-----------Fin de la ronda");
-    console.log(`Puntuación equipo rojo: ${redScore}`);
-    console.log(`Puntuación equipo azul: ${blueScore}`);
-    showResults();
-  } else {
-    const currentTeam = currentPlayerIndex % 2 === 0 ? redTeam : blueTeam;
-    const currentPlayerIndexInTeam = Math.floor(currentPlayerIndex / 2);
-    const currentPlayer = currentTeam[currentPlayerIndexInTeam];
-    const currentPlayerTeam = currentPlayerIndex % 2 === 0 ? "rojo" : "azul";
-    console.log(`Turno del jugador ${currentPlayer} del equipo ${currentPlayerTeam}`);
-
-    nextPlayer();
+    currentPlayerIndex = 0; // Volver al primer jugador
+    words = words.slice(0, palabrasRestantes); // Restaurar las palabras restantes
+    palabrasRestantes = words.length;
   }
+
+  const currentTeam = currentPlayerIndex % 2 === 0 ? redTeam : blueTeam;
+  const currentPlayerIndexInTeam = Math.floor(currentPlayerIndex / 2);
+  const currentPlayer = currentTeam[currentPlayerIndexInTeam];
+  const currentPlayerTeam = currentPlayerIndex % 2 === 0 ? "rojo" : "azul";
+  console.log(`Turno del jugador ${currentPlayer} del equipo ${currentPlayerTeam}`);
+
+  nextPlayer();
 };
 
 /**

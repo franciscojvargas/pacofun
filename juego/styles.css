@@ -51,6 +51,7 @@ html body {
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /*Pantalla mostrar jugador*/
@@ -67,10 +68,11 @@ html body {
   position: absolute;
   top: 0;
   left: 50%;
+  transform: translate(+50%, 0);
 }
 
 .container .word {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
 }
 
