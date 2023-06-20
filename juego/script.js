@@ -1,4 +1,4 @@
-let words = ['coche', 'casa', 'moto']; // default words
+let words = ['prueba'];
 let redTeam = [];
 let blueTeam = [];
 let currentPlayerIndex = 0;
@@ -13,9 +13,24 @@ const loadWords = async () => {
   try {
     const response = await fetch('palabras.txt');
     const fileContent = await response.text();
-    words = fileContent.split('\n').map(word => word.trim()).slice(0, 40);
+    const allWords = fileContent.split('\n').map(word => word.trim());
+    
+    // Obtener 40 palabras aleatorias
+    const randomIndices = [];
+    while (randomIndices.length < 40) {
+      const randomIndex = Math.floor(Math.random() * allWords.length);
+      if (!randomIndices.includes(randomIndex)) {
+        randomIndices.push(randomIndex);
+      }
+    }
+    
+    words = randomIndices.map(index => allWords[index]);
   } catch (err) {
-    console.error('Error:', err);
+    Swal.fire({
+      text: 'No se han podido cargar las palabras.',
+      icon: 'error',
+      confirmButtonText: 'Aceptar',
+    });
   }
 };
 
@@ -51,6 +66,14 @@ const addPlayer = () => {
  * Se ejecuta cuando se presiona el botón "Mezclar equipos".
  */
 const randomizeTeams = () => {
+  if (redTeam.length === 0 || blueTeam.length === 0) {
+    Swal.fire({
+      text: 'Debes añadir al menos un jugador a cada equipo',
+      icon: 'warning',
+      confirmButtonText: 'Aceptar',
+    });
+  }
+  
   const redPlayers = Array.from(document.getElementById("red-players").children);
   const bluePlayers = Array.from(document.getElementById("blue-players").children);
 
@@ -83,10 +106,18 @@ const saveTeams = () => {
 
   redTeam = redPlayers.map((playerElement) => playerElement.textContent.trim());
   blueTeam = bluePlayers.map((playerElement) => playerElement.textContent.trim());
-
-  console.log(`Equipo rojo: ${redTeam}`);
-  console.log(`Equipo azul: ${blueTeam}`);
-  nextPlayer();
+  
+  if (redTeam.length > 0 && blueTeam.length > 0) {
+    nextPlayer();
+    console.log(`Equipo rojo: ${redTeam}`);
+    console.log(`Equipo azul: ${blueTeam}`);
+  } else {
+    Swal.fire({
+      text: 'Debes añadir al menos un jugador a cada equipo',
+      icon: 'warning',
+      confirmButtonText: 'Aceptar',
+    });
+  }
 };
 
 /**
