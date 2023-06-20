@@ -1,4 +1,4 @@
-const words = [];
+let words = ['coche', 'casa', 'moto']; // default words
 let redTeam = [];
 let blueTeam = [];
 let currentPlayerIndex = 0;
