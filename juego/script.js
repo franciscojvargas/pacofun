@@ -1,9 +1,4 @@
-const words = [
-  "Árbol", "Perro", "Gato", "Casa", "Coche", "Lápiz", "Silla", "Mesa", "Sol", "Luna",
-  "Río", "Montaña", "Playa", "Pelota", "Zapato", "Computadora", "Teléfono", "Libro", "Película", "Música",
-  "Café", "Pan", "Amigo", "Amor", "Felicidad", "Tristeza", "Risas", "Viaje", "Diversión", "Deporte",
-  "Arte", "Pintura", "Fotografía", "Naturaleza", "Aventura", "Sueño", "Fiesta", "Celebración", "Regalo", "Sonrisa"
-];
+const words = [];
 let redTeam = [];
 let blueTeam = [];
 let currentPlayerIndex = 0;
@@ -12,6 +7,19 @@ let blueScore = 0;
 let wordElement;
 let count = 30;
 let palabrasRestantes = words.length;
+
+// Cargar palabras
+const loadWords = async () => {
+  try {
+    const response = await fetch('palabras.txt');
+    const fileContent = await response.text();
+    words = fileContent.split('\n').map(word => word.trim()).slice(0, 40);
+  } catch (err) {
+    console.error('Error:', err);
+  }
+};
+
+loadWords();
 
 /**
  * addPlayer: Función que se ejecuta cuando se presiona el botón "Añadir jugador"
