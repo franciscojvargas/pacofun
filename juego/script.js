@@ -65,18 +65,9 @@ const addPlayer = () => {
  * randomizeTeams: mezcla los jugadores y los asigna a los equipos.
  * Se ejecuta cuando se presiona el botón "Mezclar equipos".
  */
-const randomizeTeams = () => {
-  if (redTeam.length === 0 || blueTeam.length === 0) {
-    Swal.fire({
-      text: 'Debes añadir al menos un jugador a cada equipo',
-      icon: 'warning',
-      confirmButtonText: 'Aceptar',
-    });
-  }
-  
+const randomizeTeams = () => {  
   const redPlayers = Array.from(document.getElementById("red-players").children);
   const bluePlayers = Array.from(document.getElementById("blue-players").children);
-
   const allPlayers = [...redPlayers, ...bluePlayers];
 
   // Ordenar aleatoriamente los jugadores
@@ -306,8 +297,8 @@ const handleAnswer = (isCorrect) => {
     
     nextWord();
   } else {
-    // Si es incorrecto, restar 5 segundos al contador y mostrar la siguiente palabra
-    count -= 5;
+    // Si es incorrecto, restar 4 segundos al contador y mostrar la siguiente palabra
+    count -= 4;
     nextWord();
   }
 };

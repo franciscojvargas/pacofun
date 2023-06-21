@@ -5,9 +5,13 @@
 # PacoFun
 PacoFun está inspirado en el juego de palabras PartyFun de Android pero desarrollado como PWA en web responsive para poder jugar desde cualquier dispositivo.
 
-### Instalación:
-- **Android**: Abrir la web en el navegador y añadir a la pantalla de inicio.
-- **iOS**: Abrir la web en el navegador Safari, pulsar botón compartir y añadir a la pantalla de inicio.
+## Instalación:
+- **Android**:  Pulsar en los 3 puntitos, añadir a la pantalla de inicio.
+- **iOS**: En el navegador Safari, pulsar botón compartir y añadir a la pantalla de inicio.
+
+<a href="https://franciscojvargas.github.io/pacofun/">
+  <img src="https://custom-icon-badges.demolab.com/badge/Jugar_PacoFun-red.svg?logo=controller" alt="Jugar PacoFun" height="20"/>
+</a>
 
 ### Uso:
 - Pulsar el botón de jugar.
@@ -23,3 +27,11 @@ PacoFun está inspirado en el juego de palabras PartyFun de Android pero desarro
     - La primera ronda, el jugador podrá decir todas las palabras que se quieran para que el equipo adivine la respuesta.
     - La segunda solo se podrá decir una palabra.
     - La tercera solo se podrá hacer mímica.
+
+### Contacto:
+<a href="https://www.linkedin.com/in/franciscovargasguerrero/" target="_blank">
+  <img align="center" src="https://img.shields.io/badge/linkedin-%231DA1F2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="30"/>
+</a>
+<a href="mailto:frvagu@gmail.com">
+  <img align="center" src="https://img.shields.io/badge/gmail-EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="Mail" height="30"/>
+</a>
