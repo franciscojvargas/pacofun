@@ -6,7 +6,6 @@ let redScore = 0;
 let blueScore = 0;
 let wordElement;
 let count = 30;
-let palabrasRestantes = words.length;
 
 // Cargar palabras
 const loadWords = async () => {
@@ -190,10 +189,13 @@ const startNewCountdown = () => {
  */
 const nextPlayer = () => {
   let currentPlayer;
+  let currentTeamColor;
   if (currentPlayerIndex % 2 === 0) {
     currentPlayer = redTeam[currentPlayerIndex / 2];
+    currentTeamColor = "red";
   } else {
     currentPlayer = blueTeam[Math.floor(currentPlayerIndex / 2)];
+    currentTeamColor = "blue";
   }
 
   clearScreen();
@@ -204,7 +206,7 @@ const nextPlayer = () => {
 
   const playerNameElement = document.createElement("h2");
   playerNameElement.textContent = currentPlayer;
-  playerNameElement.classList.add("player-name");
+  playerNameElement.classList.add("player-name", currentTeamColor);
   container.appendChild(playerNameElement);
 
   const wordsRemainingElement = document.createElement("div");
@@ -220,6 +222,7 @@ const nextPlayer = () => {
   });
   container.appendChild(startButton);
 };
+
 
 
 
@@ -315,8 +318,7 @@ const nextPlayerTurn = () => {
 
   if (currentPlayerIndex >= totalPlayers) {
     currentPlayerIndex = 0; // Volver al primer jugador
-    words = words.slice(0, palabrasRestantes); // Restaurar las palabras restantes
-    palabrasRestantes = words.length;
+    words = words.slice(0, words.length); // Restaurar las palabras restantes
   }
 
   const currentTeam = currentPlayerIndex % 2 === 0 ? redTeam : blueTeam;
@@ -339,13 +341,13 @@ const showResults = () => {
   document.body.appendChild(container);
 
   const redScoreElement = document.createElement("h2");
-  redScoreElement.textContent = `Puntuación equipo rojo: ${redScore}`;
-  redScoreElement.classList.add("score");
+  redScoreElement.textContent = `Equipo rojo: ${redScore}`;
+  redScoreElement.classList.add("score", "red");
   container.appendChild(redScoreElement);
 
   const blueScoreElement = document.createElement("h2");
-  blueScoreElement.textContent = `Puntuación equipo azul: ${blueScore}`;
-  blueScoreElement.classList.add("score");
+  blueScoreElement.textContent = `Equipo azul: ${blueScore}`;
+  blueScoreElement.classList.add("score", "blue");
   container.appendChild(blueScoreElement);
 
   const restartButton = document.createElement("button");

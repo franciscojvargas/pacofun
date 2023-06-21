@@ -60,6 +60,14 @@ html body {
   text-align: center;
 }
 
+.red {
+  color: #ff5757;
+}
+
+.blue {
+  color: #528fff;
+}
+
 /*Pantalla mostrar palabra*/
 .playerTime {
   font-size: 24px;
