@@ -1,9 +1,12 @@
-let words = ['prueba'];
+let words = ['prueba1', 'prueba2', 'prueba3', 'prueba4', 'prueba5'];
+let wordsCopy = words.slice();
 let redTeam = [];
 let blueTeam = [];
 let currentPlayerIndex = 0;
-let redScore = 0;
-let blueScore = 0;
+let round1Score = { red: 0, blue: 0 };
+let round2Score = { red: 0, blue: 0 };
+let round3Score = { red: 0, blue: 0 };
+let currentRound = 1;
 let wordElement;
 let count = 30;
 
@@ -24,6 +27,8 @@ const loadWords = async () => {
     }
     
     words = randomIndices.map(index => allWords[index]);
+    wordsCopy = [...words];
+    console.log(wordsCopy);
   } catch (err) {
     Swal.fire({
       text: 'No se han podido cargar las palabras.',
@@ -124,7 +129,6 @@ const clearScreen = () => {
   }
 };
 
-
 /**
  * contador: muestra un contador en pantalla y ejecuta la función startGame cuando termina.
  */
@@ -181,8 +185,6 @@ const startNewCountdown = () => {
   }, 1000);
 };
 
-
-
 /**
  * nextPlayer: muestra en pantalla a un jugador y un botón para comenzar el juego.
  * Se ejecuta cuando se presiona el botón "Comenzar juego".
@@ -223,13 +225,6 @@ const nextPlayer = () => {
   container.appendChild(startButton);
 };
 
-
-
-
-/*------------------------------------*/
-/* Código para la pantalla de juego */
-/*------------------------------------*/
-
 const nextWord = () => {
   clearScreen();
 
@@ -257,6 +252,8 @@ const nextWord = () => {
   incorrectButton.classList.add("btn", "btn-danger", "col-4", "me-2");
   incorrectButton.addEventListener("click", () => {
     handleAnswer(false);
+    let wrong = new Audio(`../sounds/wrong${Math.floor(Math.random() * 3) + 1}.mp3`);
+    wrong.play();
   });
   buttonContainer.appendChild(incorrectButton);
 
@@ -265,6 +262,8 @@ const nextWord = () => {
   correctButton.classList.add("btn", "btn-success", "col-4", "ms-2");
   correctButton.addEventListener("click", () => {
     handleAnswer(true);
+    let correct = new Audio('../sounds/correct.mp3');
+    correct.play();
   });
   buttonContainer.appendChild(correctButton);
 
@@ -285,11 +284,11 @@ const handleAnswer = (isCorrect) => {
   if (isCorrect) {
     // Sumar un punto al equipo del jugador actual
     if (currentPlayerIndex % 2 === 0) {
-      redScore++;
-      console.log(`Puntuación equipo rojo: ${redScore}`);
+      round1Score.red++;
+      console.log(`Puntuación equipo rojo: ${round1Score.red}`);
     } else {
-      blueScore++;
-      console.log(`Puntuación equipo azul: ${blueScore}`);
+      round1Score.blue++;
+      console.log(`Puntuación equipo azul: ${round1Score.blue}`);
     }
     
     // Eliminar la palabra del array de palabras
@@ -330,6 +329,17 @@ const nextPlayerTurn = () => {
   nextPlayer();
 };
 
+const newRound = () => { // TODO
+  clearScreen();
+
+  // restablecer palabras
+  words = words.slice(0, words.length);
+
+  // Actualizar currentRound
+  // Mostrar en pantalla el número de ronda actual y botón de continuar
+  // boton continuar, que al pulsarlo llame a nextPlayerTurn
+};
+
 /**
  * showResults: muestra la pantalla final con la puntuación de cada equipo.
  */
@@ -340,15 +350,57 @@ const showResults = () => {
   container.classList.add("container");
   document.body.appendChild(container);
 
-  const redScoreElement = document.createElement("h2");
-  redScoreElement.textContent = `Equipo rojo: ${redScore}`;
-  redScoreElement.classList.add("score", "red");
-  container.appendChild(redScoreElement);
+  const mainContent = document.createElement("div");
+  mainContent.classList.add("d-flex", "flex-column", "align-items-center");
+  container.appendChild(mainContent);
 
-  const blueScoreElement = document.createElement("h2");
-  blueScoreElement.textContent = `Equipo azul: ${blueScore}`;
-  blueScoreElement.classList.add("score", "blue");
-  container.appendChild(blueScoreElement);
+  const table = document.createElement("table");
+  table.classList.add("score-table");
+  mainContent.appendChild(table);
+
+  const headerRow = document.createElement("tr");
+  table.appendChild(headerRow);
+
+  const headerCell = document.createElement("th");
+  headerCell.textContent = "";
+  headerRow.appendChild(headerCell);
+
+  const redHeaderCell = document.createElement("th");
+  redHeaderCell.textContent = "Equipo Rojo";
+  redHeaderCell.classList.add("red");
+  headerRow.appendChild(redHeaderCell);
+
+  const blueHeaderCell = document.createElement("th");
+  blueHeaderCell.textContent = "Equipo Azul";
+  blueHeaderCell.classList.add("blue");
+  headerRow.appendChild(blueHeaderCell);
+
+  for (let i = 0; i < 3; i++) {
+    const roundRow = document.createElement("tr");
+    table.appendChild(roundRow);
+
+    const roundCell = document.createElement("td");
+    roundCell.textContent = `Ronda ${i + 1}`;
+    roundRow.appendChild(roundCell);
+
+    const redScoreCell = document.createElement("td");
+    redScoreCell.textContent = round1Score.red;
+    redScoreCell.classList.add("red");
+    roundRow.appendChild(redScoreCell);
+
+    const blueScoreCell = document.createElement("td");
+    blueScoreCell.textContent = round1Score.blue;
+    blueScoreCell.classList.add("blue");
+    roundRow.appendChild(blueScoreCell);
+  }
+
+  const separator = document.createElement("div");
+  separator.classList.add("my-3");
+  mainContent.appendChild(separator);
+
+  const buttonContainer = document.createElement("div");
+  buttonContainer.classList.add("d-flex", "justify-content-center");
+  mainContent.appendChild(buttonContainer);
 
   const restartButton = document.createElement("button");
   restartButton.textContent = "Volver a empezar";
@@ -356,5 +408,5 @@ const showResults = () => {
   restartButton.addEventListener("click", () => {
     window.location.href = "../index.html";
   });
-  container.appendChild(restartButton);
+  buttonContainer.appendChild(restartButton);
 };
