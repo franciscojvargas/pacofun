@@ -10,7 +10,7 @@ PacoFun está inspirado en el juego de palabras PartyFun de Android pero desarro
 - **iOS**: En el navegador Safari, pulsar botón compartir y añadir a la pantalla de inicio.
 
 <a href="https://franciscojvargas.github.io/pacofun/">
-  <img src="https://custom-icon-badges.demolab.com/badge/Jugar_PacoFun-red.svg?logo=controller" alt="Jugar PacoFun" height="20"/>
+  <img src="https://custom-icon-badges.demolab.com/badge/Jugar_PacoFun-red.svg?style=for-the-badge&logo=controller&logoColor=white" alt="Jugar PacoFun" height="30"/>
 </a>
 
 ### Uso:
