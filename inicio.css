@@ -2,6 +2,18 @@ html body {
   background-color: #272727;
 }
 
+/* DESACTIVAR SELECT Para navegadores modernos */
+body {
+  user-select: none;
+}
+
+/* DESACTIVAR SELECT Para navegadores que utilizan prefijos específicos */
+body {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
 .container {
   color: #fff;
   background-color: #272727;
