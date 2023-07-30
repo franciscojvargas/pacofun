@@ -157,9 +157,10 @@ const contador = () => {
 };
 
 const startNewCountdown = () => {
+  count = 30;
   const countdownElement = document.createElement("div");
   countdownElement.className = "countdown playerTime";
-  countdownElement.textContent = "30";
+  countdownElement.textContent = count;
   document.body.appendChild(countdownElement);
 
   if (words.length <= 0) {
@@ -315,7 +316,6 @@ const handleAnswer = (isCorrect) => {
 };
 
 const nextPlayerTurn = () => {
-  count = 30;
   document.body.removeChild(document.getElementsByClassName("playerTime")[0]);
 
   const redPlayers = redTeam.length;
@@ -368,10 +368,6 @@ const newRound = () => {
     }
   });
   container.appendChild(continueButton);
-
-  if (currentRound > 3) {
-    showResults();
-  }
 };
 
 /**
@@ -439,7 +435,7 @@ const showResults = () => {
   mainContent.appendChild(buttonContainer);
 
   const continueButton = document.createElement("button");
-  continueButton.textContent = currentRound === 3 ? "Terminar Juego" : "Continuar";
+  continueButton.textContent = currentRound === 3 ? "Resultados finales" : "Continuar";
   continueButton.classList.add("btn", "btn-primary");
   continueButton.addEventListener("click", () => {
     if (currentRound === 3) {
@@ -519,7 +515,7 @@ const showFinalResults = () => {
   table.appendChild(totalRow);
 
   const totalCell = document.createElement("td");
-  totalCell.textContent = "Puntaje Total";
+  totalCell.textContent = "TOTAL";
   totalRow.appendChild(totalCell);
 
   const totalRedScoreCell = document.createElement("td");
