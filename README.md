@@ -20,13 +20,13 @@ PacoFun está inspirado en el juego de palabras PartyFun de Android pero desarro
 - Si el equipo adivina la palabra, se pulsa el botón de acierto y se mostrará una nueva palabra, el contador de palabras restantes se decrementará y se sumará un punto al equipo.
 - Si el equipo no adivina la palabra, se pulsa el botón de fallo y se mostrará una nueva palabra, el contador de palabras restantes se mantendrá igual y no se sumará ningún punto al equipo. Se restará 5 segundos al tiempo.
 - Cuando se terminen las palabras, se mostrará el equipo ganador.
-
-### Proximamente:
-- Correción de bugs y actualizaciones de palabras.
-- 3 rondas de juego con las mismas palabras. (De momento solo hay una ronda).
+- Hay 3 rondas de juego con las mismas palabras.
     - La primera ronda, el jugador podrá decir todas las palabras que se quieran para que el equipo adivine la respuesta.
     - La segunda solo se podrá decir una palabra.
     - La tercera solo se podrá hacer mímica.
+
+### Proximamente:
+- Correción de bugs y actualizaciones de palabras.
 
 ### Contacto:
 <a href="https://www.linkedin.com/in/franciscovargasguerrero/" target="_blank">
