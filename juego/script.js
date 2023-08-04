@@ -16,9 +16,9 @@ const loadWords = async () => {
     const fileContent = await response.text();
     const allWords = fileContent.split('\n').map(word => word.trim());
 
-    // Obtener 40 palabras aleatorias
+    // Obtener 35 palabras aleatorias
     const randomIndices = [];
-    while (randomIndices.length < 40) {
+    while (randomIndices.length < 35) {
       const randomIndex = Math.floor(Math.random() * allWords.length);
       if (!randomIndices.includes(randomIndex)) {
         randomIndices.push(randomIndex);

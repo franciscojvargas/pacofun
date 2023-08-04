@@ -24,7 +24,6 @@ Nadar en el océano
 Dormir una siesta
 Comer una pizza deliciosa
 Beber un batido refrescante
-Escribir un diario personal
 Leer las noticias del día
 Hablar por teléfono con un amigo
 Escuchar música en el coche
@@ -39,7 +38,7 @@ Caminar en la montaña
 Tomar un té en el ambiguo
 Correr una carrera
 Saltar a la comba
-Bailar salsa en una fiesta latina
+Bailar salsa
 Cantar en un concierto
 Dormir en una hamaca
 Comer sushi fresco
@@ -54,7 +53,6 @@ Pintar un cuadro
 Estudiar para un examen
 Viajar en tren
 Soñar con ser astronauta
-Reírse de una comedia divertida
 Llorar en un concierto
 Caminar en la orilla del mar
 Tomar un café con leche
@@ -84,7 +82,7 @@ Comer un helado de chocolate
 Beber un zumo de naranja
 Escribir una historia de terror
 Leer un artículo científico
-Hablar con confianza en público
+Hablar en público
 Observar un paisaje desde una montaña
 Jugar al voleibol
 Trabajar en el campo
@@ -101,17 +99,17 @@ Dormir en una habitación de hotel
 Comer una hamburguesa
 Comer una hamburguesa vegana
 Beber un batido de frutas
-Escribir un diario de viaje
+Escribir un diario
 Leer un libro de ciencia ficción
-Hablar con calma en una discusión
+Hablar con calma
 Escuchar el viento
-Observar la belleza de un amanecer
+Observar el amanecer
 Jugar al baloncesto
 Trabajar en una tienda de moda
 Ciclismo por el campo
 Soñar con ser escritor famoso
 Reírse de un chiste malo
-Llorar de alegría en un reencuentro
+Llorar de alegría
 Saltar en un trampolín
 Ir a una fiesta de disfraces
 Cantar en un karaoke
@@ -120,20 +118,20 @@ Beberse un cubata en Malibú
 Escribir un cuento
 Leer una biografía
 Hablar con entusiasmo
-Nadar en la laguna del pato
+La laguna del pato
 Observar a un gorrión volar
 Jugar al tenis
 Hacerse una foto en el Beni
 Viajar en globo
 Soñar con ser panadero
-Reírse de una parodia
+Reírse de una comedia
 Caminar por un campo de girasoles
 Tomar un té verde
 Correr en una pista de obstáculos
-Hacer un castillo de arena en la playa
+Hacer un castillo de arena
 Hacer una fiesta sorpresa
 Cantar en un grupo de música
-Nadar el pilar
+Nadar en el pilar
 Comer un plato de macarrones
 Escribir un poema de amor
 Leer una novela
@@ -162,14 +160,13 @@ Hablar con sinceridad
 Observar un campo de amapolas
 Viajar en un velero
 Ser un viajero del tiempo
-Fumarse una cachimba de RhynoShishas
+Fumarse una cachimba
 Cantar en un concurso
 Comer una pizza del Quijote
 Beberse una cocacola
 Escribir un poema de desamor
 Escuchar el sonido de la lluvia
 Tomar un té en Marruecos
-Escribir un diario
 Leer un libro de autoayuda
 Hablar con pasión
 Observar el vuelo de un águila
@@ -207,11 +204,10 @@ Panadería Rubito
 Panadería Petra
 Tomar el sol en Chipiona
 Comerse una pizza de Miffina
-Bailar flamenco en los jardines
-Visitar la Catedral de Sevilla
-Visitar los Reales Alcázares
+Bailar flamenco
+La Catedral de Sevilla
 Recorrer la Plaza de España
-Recorrer el Parque de María Luisa
+Parque de María Luisa
 Tomar café en Carmona
 Dormir en Ronda
 Hacer el Caminito del Rey
@@ -276,7 +272,7 @@ Auriculares
 Martillo
 Destornillador
 Cepillo de dientes
-Cepillo para el cabello
+Cepillo para el pelo
 Maleta
 Botella de agua
 Paraguas
