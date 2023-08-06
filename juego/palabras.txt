@@ -1,283 +1,361 @@
-Correr en el parque
-Saltar en un charco
-Bailar con alegría
-Cantar una canción
-Nadar en la piscina
-Dormir bajo las estrellas
-Comer helado en verano
-Beber agua fresca
-Escribir un poema
-Leer un cuento de hadas
-Escuchar el sonido de las olas
-Observar un hermoso atardecer
-Trabajar en un proyecto emocionante
-Estudiar para aprender algo nuevo
-Viajar a un país extranjero
-Soñar con un futuro brillante
-Reír hasta que duela el estómago
-Caminar por el bosque
-Tomar café en la mañana
-Correr una maratón
-Bailar en una fiesta
-Cantar en la ducha
-Nadar en el océano
-Dormir una siesta
-Comer una pizza deliciosa
-Beber un batido refrescante
-Leer las noticias del día
-Hablar por teléfono con un amigo
-Escuchar música en el coche
-Observar el vuelo de un pájaro
-Jugar al fútbol en el parque
-Trabajar en un jardín de flores
-Viajar en avión a un destino exótico
-Soñar despierto
-Reírse de un chiste gracioso
-Llorar en una boda
-Caminar en la montaña
-Tomar un té en el ambiguo
-Correr una carrera
-Saltar a la comba
-Bailar salsa
-Cantar en un concierto
-Dormir en una hamaca
-Comer sushi fresco
-Beber agua de coco en la playa
-Escribir una carta
-Leer una novela de misterio
-Hablar sobre un tema favorito
-Escuchar el ruido de la lluvia
-Observar las estrellas
-Jugar al escondite
-Pintar un cuadro
-Estudiar para un examen
-Viajar en tren
-Soñar con ser astronauta
-Llorar en un concierto
-Caminar en la orilla del mar
-Tomar un café con leche
-Correr en una carrera
-Bailar en Terraza Zyanya
-Cantar en un coro
-Nadar en un lago
-Dormir en una cabaña
-Comer una ensalada fresca
-Beber un Camaleón
-Leer un poema de amor
-Hablar en otro idioma
-Observar un arcoíris
-Jugar al ajedrez
-Trabajar en un laboratorio
-Viajar en un crucero
-Soñar con ser famoso
-Reírse de una película
-Llorar en una despedida
-Hacer senderismo
-Tomar un chocolate caliente
-Correr en la playa al atardecer
-Saltar en un castillo inflable
-Nadar en una piscina
-Dormir en una tienda de campaña
-Comer un helado de chocolate
-Beber un zumo de naranja
-Escribir una historia de terror
-Leer un artículo científico
-Hablar en público
-Observar un paisaje desde una montaña
-Jugar al voleibol
-Trabajar en el campo
-Viajar en una caravana
-Soñar con ser presidente
-Reírse de una situación divertida
-Llorar de emoción
-Caminar por una ciudad desconocida
-Correr en una pista de atletismo
-Saltar en paracaídas
-Bailar en una clase de zumba
-Nadar en un río
-Dormir en una habitación de hotel
-Comer una hamburguesa
-Comer una hamburguesa vegana
-Beber un batido de frutas
-Escribir un diario
-Leer un libro de ciencia ficción
-Hablar con calma
-Escuchar el viento
-Observar el amanecer
-Jugar al baloncesto
-Trabajar en una tienda de moda
-Ciclismo por el campo
-Soñar con ser escritor famoso
-Reírse de un chiste malo
-Llorar de alegría
-Saltar en un trampolín
-Ir a una fiesta de disfraces
-Cantar en un karaoke
-Comer una pizza de Modesto
-Beberse un cubata en Malibú
-Escribir un cuento
-Leer una biografía
-Hablar con entusiasmo
-La laguna del pato
-Observar a un gorrión volar
-Jugar al tenis
-Hacerse una foto en el Beni
-Viajar en globo
-Soñar con ser panadero
-Reírse de una comedia
-Caminar por un campo de girasoles
-Tomar un té verde
-Correr en una pista de obstáculos
-Hacer un castillo de arena
-Hacer una fiesta sorpresa
-Cantar en un grupo de música
-Nadar en el pilar
-Comer un plato de macarrones
-Escribir un poema de amor
-Leer una novela
-Hablar con sabiduría
-Escuchar el sonido de una cascada
-Observar un campo de flores
-Jugar al golf
-Viajar en el AVE
-Soñar con ser un explorador
-Reírse de una situación absurda
-Caminar en un bosque encantado
-Bailar en una fiesta de los 80
-Comer un helado de fresa
-Beber una fanta de limón
-Escribir una historia
-Leer un libro de filosofía
-Hablar en una entrevista
-Observar el vuelo de una mariposa
-Jugar al fútbol
-Soñar con ser un artista
-Saltar en una cama elástica
-Comer una ensalada
-Beber un batido de proteínas
-Leer un libro de poesía
-Hablar con sinceridad
-Observar un campo de amapolas
-Viajar en un velero
-Ser un viajero del tiempo
-Fumarse una cachimba
-Cantar en un concurso
-Comer una pizza del Quijote
-Beberse una cocacola
-Escribir un poema de desamor
-Escuchar el sonido de la lluvia
-Tomar un té en Marruecos
-Leer un libro de autoayuda
-Hablar con pasión
-Observar el vuelo de un águila
-Soñar con ser un detective
-Ir al Guadalpark
-Ir al Tomorrowland
-Ir al PuroLatino
-Dormir en una casa flotante
-Comer un helado de vainilla
-Beberse un mojito
-Hablar en un debate político
-Escuchar el canto de los pájaros
-Tomar una manzanilla
-Beber una fanta de naranja
-Decir un discurso motivacional
-Escuchar el sonido del mar
-Ir a un buffet de cerveza
-Comer sardinas en un chiringuito
-Comprar chucherias en el Parri
-Comer anca Vargas
-Beberse un litro en el poligono
-Mexones cantando
-Tomar el fresco en "los patos"
-Comprar tabaco anca pitón
-Desayunar anca Mario
-Terraza Zyanya
-Bailar en Borakay
-Papa indio
-Comprar un chalet en el calvario
-Comprar un chalet en el palomar
-En Marchena ni el agua es buena
-Cubo de agua
-Seguros Galindo
-Panadería Rubito
-Panadería Petra
-Tomar el sol en Chipiona
-Comerse una pizza de Miffina
-Bailar flamenco
-La Catedral de Sevilla
-Recorrer la Plaza de España
-Parque de María Luisa
-Tomar café en Carmona
-Dormir en Ronda
-Hacer el Caminito del Rey
-Hacer el Camino de Santiago
-Ir a Sierra Nevada
-Ir al Evassion
-Ir al Alambique
-Chamizo limpiando palmeras
-Hola amigos del TikTok
-Ver un directo de AuronPlay
-Ibai saltando a la comba
-Ir al cine
-Ir a la bolera de Alcalá
-Perro
-Gato
-Elefante
-León
-Tigre
-Oso
-Jirafa
-Mono
-Cebra
-Serpiente
-Cocodrilo
-Rinoceronte
-Hipopótamo
-Gorila
-Caballo
-Vaca
-Cerdo
-Oveja
-Cabra
-Conejo
-Rata
-Murciélago
-Ballena
-Delfín
-Tortuga
-Pájaro
+Abeja
+Abejorro
+Ácaro
 Águila
-Pato
-Pez
-Mariposa
-Teléfono móvil
-Ordenador portátil
-Libro
-Bolígrafo
-Silla
-Mesa
-Cama
-Lámpara
-Televisión
-Coche
-Bicicleta
-Reloj
-Gafas
-Cuchara
-Taza
-Platos
-Cámara
+Almohada
+Araña
+Armadillo
 Auriculares
-Martillo
-Destornillador
+Avestruz
+Avión
+Avispa
+Bailar con alegría
+Bailar en Borakay
+Bailar en Terraza Zyanya
+Bailar en una clase de zumba
+Bailar en una fiesta
+Bailar en una fiesta de los 80
+Bailar flamenco
+Bailar salsa
+Ballena
+Barco
+Beber agua de coco en la playa
+Beber agua fresca
+Beber un batido de frutas
+Beber un batido de proteínas
+Beber un batido refrescante
+Beber un Camaleón
+Beber un zumo de naranja
+Beber una fanta de limón
+Beber una fanta de naranja
+Beberse un cubata en Malibú
+Beberse un litro en el poligono
+Beberse un mojito
+Beberse una cocacola
+Bicicleta
+Bolígrafo
+Bolsa
+Botella
+Botella de agua
+Búho
+Caballo
+Cabra
+Caja
+Cama
+Camaleón
+Cámara
+Caminar en la montaña
+Caminar en la orilla del mar
+Caminar en un bosque encantado
+Caminar por el bosque
+Caminar por un campo de girasoles
+Caminar por una ciudad desconocida
+Camino
+Camisa
+Cangrejo
+Canguro
+Cantar en la ducha
+Cantar en un concierto
+Cantar en un concurso
+Cantar en un coro
+Cantar en un grupo de música
+Cantar en un karaoke
+Cantar una canción
+Castor
+Cebra
+Cepillo
 Cepillo de dientes
 Cepillo para el pelo
-Maleta
-Botella de agua
-Paraguas
-Ventilador
-Guitarra
-Pelota
+Cerdo
+Chamizo limpiando palmeras
+Chinche
+Ciclismo por el campo
+Ciempiés
+Ciervo
+Cisne
+Coche
+Cocodrilo
+Comer anca Vargas
+Comer helado en verano
+Comer sardinas en un chiringuito
+Comer sushi fresco
+Comer un helado de chocolate
+Comer un helado de fresa
+Comer un helado de vainilla
+Comer un plato de macarrones
+Comer una ensalada
+Comer una ensalada fresca
+Comer una hamburguesa
+Comer una hamburguesa vegana
+Comer una pizza de Modesto
+Comer una pizza del Quijote
+Comer una pizza deliciosa
+Comerse una pizza de Miffina
+Comprar chucherias en el Parri
+Comprar tabaco anca pitón
+Comprar un chalet en el calvario
+Comprar un chalet en el palomar
+Computadora
+Conejo
+Correr en el parque
+Correr en la playa al atardecer
+Correr en una carrera
+Correr en una pista de atletismo
+Correr en una pista de obstáculos
+Correr una carrera
+Correr una maratón
+Cubo de agua
+Cucaracha
+Cuchara
+Cuchillo
+Decir un discurso motivacional
+Delfín
+Desayunar anca Mario
+Destornillador
+Dormir bajo las estrellas
+Dormir en Ronda
+Dormir en una cabaña
+Dormir en una casa flotante
+Dormir en una habitación de hotel
+Dormir en una hamaca
+Dormir en una tienda de campaña
+Dormir una siesta
+Elefante
+En Marchena ni el agua es buena
+Escalera
+Escarabajo
+Escoba
+Escorpión
+Escribir un cuento
+Escribir un diario
+Escribir un poema
+Escribir un poema de amor
+Escribir un poema de desamor
+Escribir una carta
+Escribir una historia
+Escribir una historia de terror
+Escuchar el canto de los pájaros
+Escuchar el ruido de la lluvia
+Escuchar el sonido de la lluvia
+Escuchar el sonido de las olas
+Escuchar el sonido de una cascada
+Escuchar el sonido del mar
+Escuchar el viento
+Escuchar música en el coche
+Espejo
+Esponja
+Estudiar para aprender algo nuevo
+Estudiar para un examen
+Fumarse una cachimba
+Gafas
+Gato
 Globo
+Gorgojo
+Gorila
+Grillo
+Guitarra
+Hablar con calma
+Hablar con entusiasmo
+Hablar con pasión
+Hablar con sabiduría
+Hablar con sinceridad
+Hablar en otro idioma
+Hablar en público
+Hablar en un debate político
+Hablar en una entrevista
+Hablar por teléfono con un amigo
+Hablar sobre un tema favorito
+Hacer el Caminito del Rey
+Hacer el Camino de Santiago
+Hacer senderismo
+Hacer un castillo de arena
+Hacer una fiesta sorpresa
+Hacerse una foto en el Beni
+Hipopótamo
+Hola amigos del TikTok
+Hormiga
+Ibai saltando a la comba
+Ir a la bolera de Alcalá
+Ir a Sierra Nevada
+Ir a un buffet de cerveza
+Ir a una fiesta de disfraces
+Ir al Alambique
+Ir al cine
+Ir al Evassion
+Ir al Guadalpark
+Ir al PuroLatino
+Ir al Tomorrowland
+Jabón
+Jirafa
+Jugar al ajedrez
+Jugar al baloncesto
+Jugar al escondite
+Jugar al fútbol
+Jugar al fútbol en el parque
+Jugar al golf
+Jugar al tenis
+Jugar al voleibol
+Koala
+La Catedral de Sevilla
+La laguna del pato
+Lámpara
+Lápiz
+Leer las noticias del día
+Leer un artículo científico
+Leer un cuento de hadas
+Leer un libro de autoayuda
+Leer un libro de ciencia ficción
+Leer un libro de filosofía
+Leer un libro de poesía
+Leer un poema de amor
+Leer una biografía
+Leer una novela
+Leer una novela de misterio
+Lémur
+León
+Libélula
+Libro
+Llave
 Llavero
+Llorar de alegría
+Llorar de emoción
+Llorar en un concierto
+Llorar en una boda
+Llorar en una despedida
+Lobo
+Luciérnaga
+Maleta
+Mantis religiosa
+Mariposa
+Mariquita
+Martillo
+Mesa
+Mexones cantando
+Microondas
+Mono
+Mosca
+Mosca de la fruta
+Mosquito
+Murciélago
+Nadar en el océano
+Nadar en el pilar
+Nadar en la piscina
+Nadar en un lago
+Nadar en un río
+Nadar en una piscina
+Observar a un gorrión volar
+Observar el amanecer
+Observar el vuelo de un águila
+Observar el vuelo de un pájaro
+Observar el vuelo de una mariposa
+Observar las estrellas
+Observar un arcoíris
+Observar un campo de amapolas
+Observar un campo de flores
+Observar un hermoso atardecer
+Observar un paisaje desde una montaña
+Orangután
+Ordenador portátil
+Oso
+Oveja
+Pájaro
+Panadería Petra
+Panadería Rubito
+Pantalón
+Papa indio
+Paraguas
+Parque de María Luisa
+Pasta de dientes
+Pato
+Pelota
+Percha
+Perro
+Pez
+Pingüino
+Pintar un cuadro
+Piso
+Plato
+Pluma
+Polilla
+Puente
+Puerta
+Pulga
+Pulpo
+Puma
+Rana
+Rata
+Recorrer la Plaza de España
+Refrigerador
+Reír hasta que duela el estómago
+Reírse de un chiste gracioso
+Reírse de un chiste malo
+Reírse de una comedia
+Reírse de una película
+Reírse de una situación absurda
+Reírse de una situación divertida
+Reloj
+Rinoceronte
+Saltamontes
+Saltar a la comba
+Saltar en paracaídas
+Saltar en un castillo inflable
+Saltar en un charco
+Saltar en un trampolín
+Saltar en una cama elástica
+Seguros Galindo
+Ser un viajero del tiempo
+Serpiente
+Silla
+Sombrero
+Soñar con ser astronauta
+Soñar con ser escritor famoso
+Soñar con ser famoso
+Soñar con ser panadero
+Soñar con ser presidente
+Soñar con ser un artista
+Soñar con ser un detective
+Soñar con ser un explorador
+Soñar con un futuro brillante
+Soñar despierto
+Tarántula
+Taza
+Techo
+Teléfono
+Teléfono móvil
+Televisor
+Tenedor
+Terraza Zyanya
+Tiburón
+Tigre
+Tijeras
+Tijereta
+Tomar café en Carmona
+Tomar café en la mañana
+Tomar el fresco
+Tomar el sol en Chipiona
+Tomar un café con leche
+Tomar un chocolate caliente
+Tomar un té en el Ambiguo
+Tomar un té en Marruecos
+Tomar un té verde
+Tomar una manzanilla
+Tortuga
+Trabajar en el campo
+Trabajar en un jardín de flores
+Trabajar en un laboratorio
+Trabajar en un proyecto emocionante
+Trabajar en una tienda de moda
+Vaca
+Ventana
+Ventilador
+Ver un directo de AuronPlay
+Viajar a un país extranjero
+Viajar en avión
+Viajar en el AVE
+Viajar en globo
+Viajar en tren
+Viajar en un crucero
+Viajar en un velero
+Viajar en una caravana
+Zapatos
+Zorro
